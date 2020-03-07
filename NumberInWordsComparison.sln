@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EA47A667-F4F8-46DC-AF9F-080208F5B6FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{4C0F3FA8-A511-41E2-BBAD-24374D3B9586}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberInWordsComparison", "src\NumberInWordsComparison\NumberInWordsComparison.csproj", "{3394FF62-F49B-45FD-9FD5-2FF38C82F2C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberInWordsComparison.Tests", "tests\NumberInWordsComparison.Tests\NumberInWordsComparison.Tests.csproj", "{BE4C2B1D-0C1D-4C79-AAB5-51F6C57E363D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3394FF62-F49B-45FD-9FD5-2FF38C82F2C5} = {EA47A667-F4F8-46DC-AF9F-080208F5B6FF}
+		{BE4C2B1D-0C1D-4C79-AAB5-51F6C57E363D} = {4C0F3FA8-A511-41E2-BBAD-24374D3B9586}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3394FF62-F49B-45FD-9FD5-2FF38C82F2C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3394FF62-F49B-45FD-9FD5-2FF38C82F2C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3394FF62-F49B-45FD-9FD5-2FF38C82F2C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3394FF62-F49B-45FD-9FD5-2FF38C82F2C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE4C2B1D-0C1D-4C79-AAB5-51F6C57E363D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE4C2B1D-0C1D-4C79-AAB5-51F6C57E363D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE4C2B1D-0C1D-4C79-AAB5-51F6C57E363D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE4C2B1D-0C1D-4C79-AAB5-51F6C57E363D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
